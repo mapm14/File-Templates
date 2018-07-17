@@ -1,0 +1,25 @@
+<template format="4"
+    revision="1"
+    name="Repository Template"
+    description="Creates Repository classes">
+    
+    <category value="Repository" />
+    <formfactor value="Mobile" />
+    
+    <parameter id="className"
+        name="Repository Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="RepositoryName"
+        help="The name of the Repository"/>
+
+    <parameter id="apiClientGeneratorName"
+        name="Api Client Generator Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="ApiClientGeneratorName"
+        help="The name of the Api Client Generator"/>
+    
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+</template>

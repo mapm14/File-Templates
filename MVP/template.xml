@@ -1,0 +1,38 @@
+<template format="4"
+    revision="1"
+    name="MVP Template"
+    description="Creates a new MVP classes - Presenter, Presenter Impl and View">
+    
+    <category value="MVP" />
+    <formfactor value="Mobile" />
+    
+    <parameter id="className"
+    name="Activity/Fragment Name"
+    type="string"
+    constraints="class|unique|nonempty"
+    default="Activity/FragmentName"
+    help="The name of the functionality that requires MVP"/>
+    
+    <parameter
+    id="layoutName"
+    name="Layout Name"
+    type="string"
+    constraints="layout|unique|nonempty"
+    suggest="${classToResource(className)}"
+    default="layout_name"
+    help="The name of the layout to create" />
+
+   <parameter
+        id="typeOfMvp"
+        name="Type of MVP"
+        type="enum"
+        default="activity"
+        help="Choose what type of MVP do you want to create">
+   <option id="activity">MVP in Activity</option>
+   <option id="fragment">MVP in Fragment</option>
+   <option id="activityAndFragmentMvp">Create Activity and his Fragment with MVP</option>
+   </parameter>
+    
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+</template>
