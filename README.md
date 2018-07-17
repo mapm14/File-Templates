@@ -12,4 +12,4 @@ File Templates for Android Studio, that creates:
 <a href="https://media.giphy.com/media/2ysTlvmPwvVav98QGc/giphy.gif"><img src="https://media.giphy.com/media/2ysTlvmPwvVav98QGc/giphy.gif" title="Interactor-Template"/></a>
 
 # Repository-Template Example:
-<a href="https://media.giphy.com/media/LUirgkF8XXwiVRDxjA/giphy.gif"><img src="https://media.giphy.com/media/LUirgkF8XXwiVRDxjA/giphy.gif" title="Interactor-Template"/></a>
+<a href="https://media.giphy.com/media/7vABf6LMijG5pn5gTs/giphy.gif"><img src="https://media.giphy.com/media/7vABf6LMijG5pn5gTs/giphy.gif" title="Repository-Template"/></a>
